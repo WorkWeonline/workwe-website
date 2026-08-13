@@ -1,0 +1,91 @@
+{
+  "common": {
+    "workwe": "WorkWE",
+    "tagline": "Modern işletmeler için yapay zeka destekli ERP & CRM",
+    "ctaPrimary": "Hemen Başla",
+    "ctaSecondary": "Demo İzle",
+    "installIn5Min": "5 Dakikada Kurulum",
+    "installCommand": "docker run -d -p 3000:3000 workwe/workwe",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!"
+  },
+  "hero": {
+    "badge": "Yapay Zeka Destekli",
+    "title": "İşinizi Büyüten Yapay Zeka Destekli ERP",
+    "subtitle": "CRM, ERP, Muhasebe ve Üretim — tek platformda. WorkWE işletmenizin tüm süreçlerini yapay zeka ile otomatikleştirir.",
+    "ctaPrimary": "Hemen Başla",
+    "ctaSecondary": "Demo İzle",
+    "stats": [
+      { "value": "%40", "label": "Daha Hızlı Süreç" },
+      { "value": "10x", "label": "Verimlilik Artışı" },
+      { "value": "7/24", "label": "AI Asistan" }
+    ]
+  },
+  "logostrip": {
+    "title": "Dünya standartlarında teknolojiyle inşa edildi"
+  },
+  "features": {
+    "badge": "Özellikler",
+    "title": "İşletmeniz için her şey tek platformda",
+    "subtitle": "Modüler yapıyla ihtiyacınıza göre büyüyün",
+    "items": [
+      { "title": "CRM", "description": "Müşteri ilişkilerini yönetin, satış fırsatlarını takip edin ve müşteri sadakatini artırın." },
+      { "title": "Satış", "description": "Teklif, sipariş ve faturaları tek yerden yönetin. Otomatik takip ile satış döngünüzü hızlandırın." },
+      { "title": "Stok", "description": "Gerçek zamanlı stok takibi, kritik seviye uyarıları ve çoklu depo yönetimi." },
+      { "title": "Muhasebe", "description": "E-fatura, e-arşiv ve banka entegrasyonuyla finansal süreçlerinizi otomatikleştirin." },
+      { "title": "Üretim", "description": "MRP hesaplamaları, üretim emirleri ve iş emirleriyle üretim sürecinizi yönetin." },
+      { "title": "AI Asistan", "description": "Tachikoma adlı yapay zeka asistanınız raporlar hazırlar, veri analizi yapar ve önerilerde bulunur." }
+    ]
+  },
+  "demo": {
+    "badge": "Demo",
+    "title": "WorkWE'i çalışırken görün",
+    "subtitle": "Tek tıkla kapsamlı demo ortamına erişin",
+    "cta": "Canlı Demo İzle",
+    "points": [
+      "Gerçek verilerle hazırlanmış demo",
+      "Tüm modüller aktif",
+      "İstediğiniz zaman sıfırlayabilirsiniz"
+    ]
+  },
+  "pricing": {
+    "badge": "Fiyatlandırma",
+    "title": "Ölçeğinize uygun plan seçin",
+    "subtitle": "İhtiyacınıza göre büyüyün, gerektiğinde plan değiştirin",
+    "popular": "Popüler",
+    "getStarted": "Başlayın",
+    "contactUs": "İletişime Geç"
+  },
+  "testimonials": {
+    "badge": "Müşteri Yorumları",
+    "title": "İşletmeler WorkWE ile büyüyor",
+    "subtitle": "Gerçek kullanıcı deneyimlerini keşfedin"
+  },
+  "faq": {
+    "badge": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınıza takılan her şey için"
+  },
+  "cta": {
+    "title": "İşletmenizi bugün büyütmeye başlayın",
+    "subtitle": "Ücretsiz başlayın, kredi kartı gerekmez. 5 dakikada kurun.",
+    "installLabel": "Hemen kuruluma başlayın:"
+  },
+  "footer": {
+    "tagline": "Modern işletmeler için yapay zeka destekli ERP & CRM",
+    "product": "Ürün",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "demo": "Demo",
+    "faq": "SSS",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "blog": "Blog",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "language": "Dil",
+    "copyright": "© 2026 WorkWE. Tüm hakları saklıdır."
+  }
+}

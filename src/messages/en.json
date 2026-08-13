@@ -1,0 +1,91 @@
+{
+  "common": {
+    "workwe": "WorkWE",
+    "tagline": "AI-powered ERP & CRM for modern businesses",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Watch Demo",
+    "installIn5Min": "5-Minute Setup",
+    "installCommand": "docker run -d -p 3000:3000 workwe/workwe",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "hero": {
+    "badge": "AI-Powered",
+    "title": "AI-Powered ERP That Grows Your Business",
+    "subtitle": "CRM, ERP, Accounting and Manufacturing — on one platform. WorkWE automates all your business processes with AI.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Watch Demo",
+    "stats": [
+      { "value": "40%", "label": "Faster Processes" },
+      { "value": "10x", "label": "Productivity Gain" },
+      { "value": "24/7", "label": "AI Assistant" }
+    ]
+  },
+  "logostrip": {
+    "title": "Built on world-class technology"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Everything your business needs in one place",
+    "subtitle": "Grow modularly according to your needs",
+    "items": [
+      { "title": "CRM", "description": "Manage customer relationships, track sales opportunities and increase customer loyalty." },
+      { "title": "Sales", "description": "Manage quotes, orders and invoices from one place. Accelerate your sales cycle with automated tracking." },
+      { "title": "Inventory", "description": "Real-time stock tracking, critical level alerts and multi-warehouse management." },
+      { "title": "Accounting", "description": "Automate your financial processes with e-invoice, e-archive and bank integration." },
+      { "title": "Manufacturing", "description": "Manage your production with MRP calculations, production orders and work orders." },
+      { "title": "AI Assistant", "description": "Your AI assistant Tachikoma prepares reports, analyzes data and makes suggestions." }
+    ]
+  },
+  "demo": {
+    "badge": "Demo",
+    "title": "See WorkWE in action",
+    "subtitle": "Access a comprehensive demo environment with one click",
+    "cta": "Watch Live Demo",
+    "points": [
+      "Demo prepared with real data",
+      "All modules active",
+      "Reset anytime"
+    ]
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Choose a plan that fits your scale",
+    "subtitle": "Grow as you need, switch plans anytime",
+    "popular": "Popular",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Businesses are growing with WorkWE",
+    "subtitle": "Discover real user experiences"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know"
+  },
+  "cta": {
+    "title": "Start growing your business today",
+    "subtitle": "Start free, no credit card required. Set up in 5 minutes.",
+    "installLabel": "Start your install now:"
+  },
+  "footer": {
+    "tagline": "AI-powered ERP & CRM for modern businesses",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "demo": "Demo",
+    "faq": "FAQ",
+    "company": "Company",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "language": "Language",
+    "copyright": "© 2026 WorkWE. All rights reserved."
+  }
+}
