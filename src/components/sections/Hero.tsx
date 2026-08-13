@@ -8,13 +8,9 @@ export default function Hero() {
   const stats = t.raw('stats') as { value: string; label: string }[];
 
   return (
-    <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-4 py-24">
-      {/* Aurora gradient background */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-[-20%] h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-purple-600/30 blur-[120px]" />
-        <div className="absolute left-[20%] top-[30%] h-[400px] w-[400px] rounded-full bg-blue-600/20 blur-[100px]" />
-        <div className="absolute right-[15%] top-[20%] h-[400px] w-[400px] rounded-full bg-cyan-500/20 blur-[100px]" />
-      </div>
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 py-24">
+      {/* Aurora animated background */}
+      <div className="aurora-animated" />
 
       <div className="relative z-10 mx-auto max-w-6xl text-center">
         <motion.span
