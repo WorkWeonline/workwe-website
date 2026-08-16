@@ -7,7 +7,9 @@
     "installIn5Min": "5 Dakikada Kurulum",
     "installCommand": "docker run -d -p 3000:3000 workwe/workwe",
     "copy": "Kopyala",
-    "copied": "Kopyalandı!"
+    "copied": "Kopyalandı!",
+    "ctaDemo": "Ücretsiz Demo Al",
+    "ctaPricing": "Fiyatları İncele"
   },
   "hero": {
     "badge": "Yapay Zeka Destekli",
@@ -16,9 +18,18 @@
     "ctaPrimary": "Hemen Başla",
     "ctaSecondary": "Demo İzle",
     "stats": [
-      { "value": "%40", "label": "Daha Hızlı Süreç" },
-      { "value": "10x", "label": "Verimlilik Artışı" },
-      { "value": "7/24", "label": "AI Asistan" }
+      {
+        "value": "%40",
+        "label": "Daha Hızlı Süreç"
+      },
+      {
+        "value": "10x",
+        "label": "Verimlilik Artışı"
+      },
+      {
+        "value": "7/24",
+        "label": "AI Asistan"
+      }
     ]
   },
   "logostrip": {
@@ -29,12 +40,30 @@
     "title": "İşletmeniz için her şey tek platformda",
     "subtitle": "Modüler yapıyla ihtiyacınıza göre büyüyün",
     "items": [
-      { "title": "CRM", "description": "Müşteri ilişkilerini yönetin, satış fırsatlarını takip edin ve müşteri sadakatini artırın." },
-      { "title": "Satış", "description": "Teklif, sipariş ve faturaları tek yerden yönetin. Otomatik takip ile satış döngünüzü hızlandırın." },
-      { "title": "Stok", "description": "Gerçek zamanlı stok takibi, kritik seviye uyarıları ve çoklu depo yönetimi." },
-      { "title": "Muhasebe", "description": "E-fatura, e-arşiv ve banka entegrasyonuyla finansal süreçlerinizi otomatikleştirin." },
-      { "title": "Üretim", "description": "MRP hesaplamaları, üretim emirleri ve iş emirleriyle üretim sürecinizi yönetin." },
-      { "title": "AI Asistan", "description": "Tachikoma adlı yapay zeka asistanınız raporlar hazırlar, veri analizi yapar ve önerilerde bulunur." }
+      {
+        "title": "CRM",
+        "description": "Müşteri ilişkilerini yönetin, satış fırsatlarını takip edin ve müşteri sadakatini artırın."
+      },
+      {
+        "title": "Satış",
+        "description": "Teklif, sipariş ve faturaları tek yerden yönetin. Otomatik takip ile satış döngünüzü hızlandırın."
+      },
+      {
+        "title": "Stok",
+        "description": "Gerçek zamanlı stok takibi, kritik seviye uyarıları ve çoklu depo yönetimi."
+      },
+      {
+        "title": "Muhasebe",
+        "description": "E-fatura, e-arşiv ve banka entegrasyonuyla finansal süreçlerinizi otomatikleştirin."
+      },
+      {
+        "title": "Üretim",
+        "description": "MRP hesaplamaları, üretim emirleri ve iş emirleriyle üretim sürecinizi yönetin."
+      },
+      {
+        "title": "AI Asistan",
+        "description": "Tachikoma adlı yapay zeka asistanınız raporlar hazırlar, veri analizi yapar ve önerilerde bulunur."
+      }
     ]
   },
   "demo": {
@@ -46,7 +75,24 @@
       "Gerçek verilerle hazırlanmış demo",
       "Tüm modüller aktif",
       "İstediğiniz zaman sıfırlayabilirsiniz"
-    ]
+    ],
+    "metaTitle": "Demo Talebi",
+    "metaDesc": "WorkWE ücretsiz demo — 15 dakikada değeri görün",
+    "heroTitle": "Ücretsiz Demo Alın",
+    "heroSub": "15 dakikalık demo ile WorkWE'nin şirketinize nasıl değer katacağını görün",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "company": "Şirket",
+    "vertical": "İlgilendiğiniz dikey",
+    "demoType": "Demo tipi",
+    "live": "Canlı demo (30 dk)",
+    "recorded": "Kaydedilmiş video (15 dk)",
+    "trial": "Self-service deneme (14 gün)",
+    "message": "Mesaj (opsiyonel)",
+    "submit": "Demo Talebini Gönder",
+    "error": "Bir hata oluştu, lütfen tekrar deneyin",
+    "successTitle": "Demo talebiniz alındı!",
+    "successSub": "24 saat içinde ekibimiz sizinle iletişime geçecek"
   },
   "pricing": {
     "badge": "Fiyatlandırma",
@@ -54,7 +100,84 @@
     "subtitle": "İhtiyacınıza göre büyüyün, gerektiğinde plan değiştirin",
     "popular": "Popüler",
     "getStarted": "Başlayın",
-    "contactUs": "İletişime Geç"
+    "contactUs": "İletişime Geç",
+    "metaTitle": "Fiyatlandırma",
+    "metaDesc": "WorkWE fiyat planları — Startup'tan Enterprise'a",
+    "heroTitle": "Şirketinize uygun planı seçin",
+    "heroSub": "Startup'tan enterprise'a, her ölçekte çözüm",
+    "monthly": "Aylık",
+    "annual": "Yıllık (-10%)",
+    "companySize": "Şirket Büyüklüğü",
+    "verticals": "Dikeyler",
+    "modules": "Modüller",
+    "billing": "Ödeme Periyodu",
+    "calculate": "Fiyat Hesapla",
+    "estimate": "Tahmini Fiyat",
+    "monthlyCost": "Aylık",
+    "annualCost": "Yıllık",
+    "discount": "İndirim",
+    "getQuote": "Teklif Al",
+    "noResult": "Parametreleri seçin ve hesaplayın",
+    "size": {
+      "startup": "Startup",
+      "smb": "KOBİ",
+      "enterprise": "Kurumsal"
+    },
+    "calcTitle": "Fiyatınızı 30 saniyede hesaplayın",
+    "calcSub": "Şirket büyüklüğü + dikey + modül seçin",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "₺5.000/ay",
+        "features": [
+          "5 kullanıcı",
+          "Core ERP (CRM + Finans + Stok)",
+          "1 dikey seçimi",
+          "E-posta desteği"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "₺15.000/ay",
+        "features": [
+          "25 kullanıcı",
+          "Core ERP + tüm modüller",
+          "3 dikey seçimi",
+          "AI asistan (Tachikoma)",
+          "Öncelikli destek"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "₺50.000/ay",
+        "features": [
+          "Sınırsız kullanıcı",
+          "Tüm dikeyler + modüller",
+          "On-premise kurulum",
+          "Özel entegrasyonlar",
+          "SLA (%99.9)"
+        ]
+      }
+    },
+    "discounts": {
+      "annual": {
+        "pct": "-10%",
+        "label": "Yıllık ödeme"
+      },
+      "startup": {
+        "pct": "-50%",
+        "label": "Startup programı"
+      },
+      "nonprofit": {
+        "pct": "-30%",
+        "label": "Kâr amacı gütmeyen"
+      },
+      "education": {
+        "pct": "-40%",
+        "label": "Eğitim kurumları"
+      }
+    },
+    "select": "Seç"
   },
   "testimonials": {
     "badge": "Müşteri Yorumları",
@@ -86,6 +209,140 @@
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Şartları",
     "language": "Dil",
-    "copyright": "© 2026 WorkWE. Tüm hakları saklıdır."
+    "copyright": "© 2026 WorkWE. Tüm hakları saklıdır.",
+    "verticals": "Dikeyler",
+    "ctaDemo": "Demo Al"
+  },
+  "verticals": {
+    "common": {
+      "title": "Hangi sektördeyseniz, WorkWE hazır",
+      "subtitle": "10 dikeyde hazır modüller — sektöre özel iş akışları ve yasal uyumluluk",
+      "features": "Öne Çıkan Modüller",
+      "calculator": "Fiyatınızı Hesaplayın",
+      "calculatorSub": "Şirket büyüklüğünüzü ve ihtiyaçlarınızı seçin, anlık fiyat görün",
+      "ctaTitle": "Bu dikeyde işinizi büyütmeye hazır mısınız?",
+      "ctaSub": "15 dakikalık demo ile WorkWE'nin değerini görün"
+    },
+    "manufacturing": {
+      "title": "Üretim",
+      "headline": "Plansız duruşları %50 azaltın",
+      "subheadline": "MES + MRP + OEE + Kalite — üretim hattınızı gerçek zamanlı yönetin",
+      "f1": "MES (Üretim Yürütme)",
+      "f2": "MRP (Malzeme İhtiyaç Planlaması)",
+      "f3": "OEE İzleme",
+      "f4": "Kalite Kontrol",
+      "f5": "IoT Sensör Entegrasyonu",
+      "f6": "Enerji Takibi"
+    },
+    "healthcare": {
+      "title": "Sağlık",
+      "headline": "Hasta bakımını dijitalleştirin",
+      "subheadline": "FHIR + PACS + LIS + Tele-tıp — hastaneler ve klinikler için eksiksiz çözüm",
+      "f1": "FHIR Tabanlı EMR",
+      "f2": "PACS Görüntüleme",
+      "f3": "LIS Laboratuvar",
+      "f4": "Tele-tıp",
+      "f5": "MEDULA Entegrasyonu",
+      "f6": "Randevu Yönetimi"
+    },
+    "construction": {
+      "title": "İnşaat",
+      "headline": "İhaleden kesin kabule kadar tek platform",
+      "subheadline": "İhale + Hakediş + İSG + Taşeron — KİK uyumlu inşaat yönetimi",
+      "f1": "İhale Takibi (KİK 4734)",
+      "f2": "Otomatik Hakediş",
+      "f3": "Fiyat Farkı (TÜFE/ÜFE)",
+      "f4": "Taşeron Yönetimi",
+      "f5": "İSG (6331)",
+      "f6": "Geçici/Kesin Kabul"
+    },
+    "education": {
+      "title": "Eğitim",
+      "headline": "Kurumunuzu uçtan uca yönetin",
+      "subheadline": "LMS + SIS + MEB entegrasyonu + sanal sınıf",
+      "f1": "LMS (Öğrenme Yönetimi)",
+      "f2": "SIS (Öğrenci Bilgi Sistemi)",
+      "f3": "MEB Entegrasyonu",
+      "f4": "Sanal Sınıf",
+      "f5": "Sınav ve Karne",
+      "f6": "Veli Portalı"
+    },
+    "fintech": {
+      "title": "Fintech",
+      "headline": "Finansal operasyonlarınızı hızlandırın",
+      "subheadline": "Bankacılık + Kredi + Yatırım — düzenlenmiş finansal süreçler",
+      "f1": "Hesap Yönetimi",
+      "f2": "Kredi Süreçleri",
+      "f3": "Yatırım Takibi",
+      "f4": "POS Entegrasyonu",
+      "f5": "Mutabakat",
+      "f6": "Raporlama"
+    },
+    "retail": {
+      "title": "Perakende",
+      "headline": "Satıştan stoğa tam görünürlük",
+      "subheadline": "POS + E-ticaret + Stok — çok kanallı perakende yönetimi",
+      "f1": "POS",
+      "f2": "E-ticaret",
+      "f3": "Stok Yönetimi",
+      "f4": "CRM",
+      "f5": "Pazaryeri Entegrasyonu",
+      "f6": "Fiyat Listeleri"
+    },
+    "logistics": {
+      "title": "Lojistik",
+      "headline": "Filonuzu ve rotalarınızı optimize edin",
+      "subheadline": "Fleet + Rota + Soğuk zincir + Depo yönetimi",
+      "f1": "Filo Takibi",
+      "f2": "Rota Optimizasyonu",
+      "f3": "Soğuk Zincir",
+      "f4": "Depo Yönetimi",
+      "f5": "Sürücü Performansı",
+      "f6": "Yakıt Takibi"
+    },
+    "government": {
+      "title": "Kamu",
+      "headline": "Kamu kurumları için uyumlu çözüm",
+      "subheadline": "EBYS + EKAP + 5018 bütçe — denetlenebilir kamu yönetimi",
+      "f1": "EBYS",
+      "f2": "EKAP Entegrasyonu",
+      "f3": "5018 Bütçe",
+      "f4": "e-İmza",
+      "f5": "İhale Yönetimi",
+      "f6": "Denetim İzleri"
+    },
+    "restaurant": {
+      "title": "Restoran",
+      "headline": "Mutfaktan kasaya tek akış",
+      "subheadline": "POS + Mutfak + Rezervasyon + Envanter",
+      "f1": "Restoran POS",
+      "f2": "Mutfak Ekranı",
+      "f3": "Rezervasyon",
+      "f4": "Envanter",
+      "f5": "Masa Yönetimi",
+      "f6": "Sipariş Analizi"
+    },
+    "realestate": {
+      "title": "Emlak",
+      "headline": "Portföyünüzü profesyonelce yönetin",
+      "subheadline": "Portföy + Kira + Aidat — emlak operasyonları",
+      "f1": "Portföy Yönetimi",
+      "f2": "Kira Takibi",
+      "f3": "Aidat Yönetimi",
+      "f4": "Tapu Takibi",
+      "f5": "Sözleşme Yönetimi",
+      "f6": "Tahsilat"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDesc": "ERP trendleri, dikey içgörüleri, başarı hikayeleri",
+    "heroTitle": "WorkWE Blog",
+    "heroSub": "ERP trendleri, dikey içgörüleri, başarı hikayeleri",
+    "empty": "Henüz yazı yok",
+    "back": "Tüm yazılar",
+    "ctaTitle": "Daha fazlasını öğrenmek ister misiniz?",
+    "ctaSub": "15 dakikalık demo ile WorkWE'yi keşfedin",
+    "ctaDemo": "Demo Al"
   }
 }

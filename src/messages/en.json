@@ -7,7 +7,9 @@
     "installIn5Min": "5-Minute Setup",
     "installCommand": "docker run -d -p 3000:3000 workwe/workwe",
     "copy": "Copy",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "ctaDemo": "Get Free Demo",
+    "ctaPricing": "View Pricing"
   },
   "hero": {
     "badge": "AI-Powered",
@@ -16,9 +18,18 @@
     "ctaPrimary": "Get Started",
     "ctaSecondary": "Watch Demo",
     "stats": [
-      { "value": "40%", "label": "Faster Processes" },
-      { "value": "10x", "label": "Productivity Gain" },
-      { "value": "24/7", "label": "AI Assistant" }
+      {
+        "value": "40%",
+        "label": "Faster Processes"
+      },
+      {
+        "value": "10x",
+        "label": "Productivity Gain"
+      },
+      {
+        "value": "24/7",
+        "label": "AI Assistant"
+      }
     ]
   },
   "logostrip": {
@@ -29,12 +40,30 @@
     "title": "Everything your business needs in one place",
     "subtitle": "Grow modularly according to your needs",
     "items": [
-      { "title": "CRM", "description": "Manage customer relationships, track sales opportunities and increase customer loyalty." },
-      { "title": "Sales", "description": "Manage quotes, orders and invoices from one place. Accelerate your sales cycle with automated tracking." },
-      { "title": "Inventory", "description": "Real-time stock tracking, critical level alerts and multi-warehouse management." },
-      { "title": "Accounting", "description": "Automate your financial processes with e-invoice, e-archive and bank integration." },
-      { "title": "Manufacturing", "description": "Manage your production with MRP calculations, production orders and work orders." },
-      { "title": "AI Assistant", "description": "Your AI assistant Tachikoma prepares reports, analyzes data and makes suggestions." }
+      {
+        "title": "CRM",
+        "description": "Manage customer relationships, track sales opportunities and increase customer loyalty."
+      },
+      {
+        "title": "Sales",
+        "description": "Manage quotes, orders and invoices from one place. Accelerate your sales cycle with automated tracking."
+      },
+      {
+        "title": "Inventory",
+        "description": "Real-time stock tracking, critical level alerts and multi-warehouse management."
+      },
+      {
+        "title": "Accounting",
+        "description": "Automate your financial processes with e-invoice, e-archive and bank integration."
+      },
+      {
+        "title": "Manufacturing",
+        "description": "Manage your production with MRP calculations, production orders and work orders."
+      },
+      {
+        "title": "AI Assistant",
+        "description": "Your AI assistant Tachikoma prepares reports, analyzes data and makes suggestions."
+      }
     ]
   },
   "demo": {
@@ -46,7 +75,24 @@
       "Demo prepared with real data",
       "All modules active",
       "Reset anytime"
-    ]
+    ],
+    "metaTitle": "Demo Request",
+    "metaDesc": "WorkWE free demo — see the value in 15 minutes",
+    "heroTitle": "Get a Free Demo",
+    "heroSub": "See how WorkWE adds value to your company in a 15-minute demo",
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company",
+    "vertical": "Industry of interest",
+    "demoType": "Demo type",
+    "live": "Live demo (30 min)",
+    "recorded": "Recorded video (15 min)",
+    "trial": "Self-service trial (14 days)",
+    "message": "Message (optional)",
+    "submit": "Send Demo Request",
+    "error": "Something went wrong, please try again",
+    "successTitle": "Demo request received!",
+    "successSub": "Our team will contact you within 24 hours"
   },
   "pricing": {
     "badge": "Pricing",
@@ -54,7 +100,84 @@
     "subtitle": "Grow as you need, switch plans anytime",
     "popular": "Popular",
     "getStarted": "Get Started",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "metaTitle": "Pricing",
+    "metaDesc": "WorkWE pricing plans — from Startup to Enterprise",
+    "heroTitle": "Choose the plan that fits your company",
+    "heroSub": "Solutions for every scale, from startup to enterprise",
+    "monthly": "Monthly",
+    "annual": "Annual (-10%)",
+    "companySize": "Company Size",
+    "verticals": "Verticals",
+    "modules": "Modules",
+    "billing": "Billing Period",
+    "calculate": "Calculate Price",
+    "estimate": "Estimated Price",
+    "monthlyCost": "Monthly",
+    "annualCost": "Annual",
+    "discount": "Discount",
+    "getQuote": "Get Quote",
+    "noResult": "Pick parameters and calculate",
+    "size": {
+      "startup": "Startup",
+      "smb": "SMB",
+      "enterprise": "Enterprise"
+    },
+    "calcTitle": "Calculate your price in 30 seconds",
+    "calcSub": "Company size + verticals + modules",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$55/mo",
+        "features": [
+          "5 users",
+          "Core ERP (CRM + Finance + Stock)",
+          "1 vertical",
+          "Email support"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$165/mo",
+        "features": [
+          "25 users",
+          "Core ERP + all modules",
+          "3 verticals",
+          "AI assistant (Tachikoma)",
+          "Priority support"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$550/mo",
+        "features": [
+          "Unlimited users",
+          "All verticals + modules",
+          "On-premise deployment",
+          "Custom integrations",
+          "SLA (99.9%)"
+        ]
+      }
+    },
+    "discounts": {
+      "annual": {
+        "pct": "-10%",
+        "label": "Annual billing"
+      },
+      "startup": {
+        "pct": "-50%",
+        "label": "Startup program"
+      },
+      "nonprofit": {
+        "pct": "-30%",
+        "label": "Nonprofit"
+      },
+      "education": {
+        "pct": "-40%",
+        "label": "Education"
+      }
+    },
+    "select": "Select"
   },
   "testimonials": {
     "badge": "Testimonials",
@@ -86,6 +209,140 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "language": "Language",
-    "copyright": "© 2026 WorkWE. All rights reserved."
+    "copyright": "© 2026 WorkWE. All rights reserved.",
+    "verticals": "Verticals",
+    "ctaDemo": "Get Demo"
+  },
+  "verticals": {
+    "common": {
+      "title": "Whatever your industry, WorkWE is ready",
+      "subtitle": "Ready modules across 10 verticals — industry-specific workflows and regulatory compliance",
+      "features": "Key Modules",
+      "calculator": "Calculate Your Price",
+      "calculatorSub": "Pick your company size and needs, see pricing instantly",
+      "ctaTitle": "Ready to grow in your industry?",
+      "ctaSub": "See WorkWE's value in a 15-minute demo"
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "headline": "Cut unplanned downtime by 50%",
+      "subheadline": "MES + MRP + OEE + Quality — run your production line in real time",
+      "f1": "MES",
+      "f2": "MRP",
+      "f3": "OEE Tracking",
+      "f4": "Quality Control",
+      "f5": "IoT Sensor Integration",
+      "f6": "Energy Monitoring"
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "headline": "Digitize patient care",
+      "subheadline": "FHIR + PACS + LIS + Telemedicine — complete solution for hospitals and clinics",
+      "f1": "FHIR-based EMR",
+      "f2": "PACS Imaging",
+      "f3": "LIS Laboratory",
+      "f4": "Telemedicine",
+      "f5": "MEDULA Integration",
+      "f6": "Appointment Management"
+    },
+    "construction": {
+      "title": "Construction",
+      "headline": "One platform from tender to final acceptance",
+      "subheadline": "Tender + Billing + OSH + Subcontractors — KIK-compliant construction management",
+      "f1": "Tender Tracking (KIK 4734)",
+      "f2": "Auto Progress Billing",
+      "f3": "Price Adjustment (CPI/PPI)",
+      "f4": "Subcontractor Management",
+      "f5": "OSH (6331)",
+      "f6": "Temporary/Final Acceptance"
+    },
+    "education": {
+      "title": "Education",
+      "headline": "Manage your institution end-to-end",
+      "subheadline": "LMS + SIS + MoNE integration + virtual classroom",
+      "f1": "LMS",
+      "f2": "SIS",
+      "f3": "MoNE Integration",
+      "f4": "Virtual Classroom",
+      "f5": "Exams & Report Cards",
+      "f6": "Parent Portal"
+    },
+    "fintech": {
+      "title": "Fintech",
+      "headline": "Accelerate financial operations",
+      "subheadline": "Banking + Credit + Investment — regulated financial processes",
+      "f1": "Account Management",
+      "f2": "Credit Processes",
+      "f3": "Investment Tracking",
+      "f4": "POS Integration",
+      "f5": "Reconciliation",
+      "f6": "Reporting"
+    },
+    "retail": {
+      "title": "Retail",
+      "headline": "Full visibility from sales to stock",
+      "subheadline": "POS + E-commerce + Inventory — multi-channel retail management",
+      "f1": "POS",
+      "f2": "E-commerce",
+      "f3": "Inventory",
+      "f4": "CRM",
+      "f5": "Marketplace Integration",
+      "f6": "Price Lists"
+    },
+    "logistics": {
+      "title": "Logistics",
+      "headline": "Optimize your fleet and routes",
+      "subheadline": "Fleet + Route + Cold chain + Warehouse management",
+      "f1": "Fleet Tracking",
+      "f2": "Route Optimization",
+      "f3": "Cold Chain",
+      "f4": "Warehouse",
+      "f5": "Driver Performance",
+      "f6": "Fuel Tracking"
+    },
+    "government": {
+      "title": "Government",
+      "headline": "Compliant solutions for public institutions",
+      "subheadline": "EDMS + EKAP + 5018 budget — auditable public administration",
+      "f1": "EDMS",
+      "f2": "EKAP Integration",
+      "f3": "5018 Budget",
+      "f4": "e-Signature",
+      "f5": "Tender Management",
+      "f6": "Audit Trails"
+    },
+    "restaurant": {
+      "title": "Restaurant",
+      "headline": "One flow from kitchen to cash",
+      "subheadline": "POS + Kitchen + Reservations + Inventory",
+      "f1": "Restaurant POS",
+      "f2": "Kitchen Display",
+      "f3": "Reservations",
+      "f4": "Inventory",
+      "f5": "Table Management",
+      "f6": "Order Analytics"
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "headline": "Manage your portfolio professionally",
+      "subheadline": "Portfolio + Rent + Dues — real estate operations",
+      "f1": "Portfolio Management",
+      "f2": "Rent Tracking",
+      "f3": "Dues Management",
+      "f4": "Deed Tracking",
+      "f5": "Contract Management",
+      "f6": "Collections"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDesc": "ERP trends, vertical insights, success stories",
+    "heroTitle": "WorkWE Blog",
+    "heroSub": "ERP trends, vertical insights, success stories",
+    "empty": "No posts yet",
+    "back": "All posts",
+    "ctaTitle": "Want to learn more?",
+    "ctaSub": "Discover WorkWE in a 15-minute demo",
+    "ctaDemo": "Get Demo"
   }
 }
